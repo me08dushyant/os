@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>flati | responsive html5 template | themeforest | josweb</title>
@@ -36,7 +38,6 @@
         </script>
 		
 </head>
-
 <body>
 <!--header-->
 	<div id="main-head" class="header">
@@ -141,47 +142,7 @@
 				<div class="pad25"></div>
 				</div>
 					</div>
-					
-				<div class="row">
-					<div class="col-md-8">
-					
-					<!--skill bars-->
-						<h2>Our Skills</h2>
-						
-					<div class="progress">
-					<div class="bar" data-percentage="85">
-						</div>
-					</div>	
-					<small>WEB DESIGN</small>
-					
-					<div class="progress">
-						<div class="bar" data-percentage="90">
-						</div>
-					</div>
-					<small>GRAPHIC DESIGN</small>
-				
-					<div class="progress">
-						<div class="bar" data-percentage="70">
-						</div>
-					</div>
-					<small>PHOTOSHOP</small>
-				</div>
-				
-				<!--testimonial-->
-				<div class="col-md-4 pad25">
-				<div class="testimonial1">
-				<p>
-					<i class="fa fa-comments fa-4x pull-left hue"></i>
-					Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. 
-					Vivamus purus arcu, commodo cursus egestas et, dictum lobortis dui. Curabitur at mi eu mi sollicitudin faucibus at at libero.
-				</p>
-				</div>
-					<div class="center">
-					<p><small>QUOTE AUTHOR</small></p>
-				</div>
-					<div class="pad45 hidden-md hidden-lg"></div>
-				</div>
-			</div>
+
 				</div>
 					</div>
 					
@@ -202,33 +163,56 @@
 				<!-- up to top -->
 				<a href="#"><i class="go-top fa fa-angle-double-up"></i></a>
 				<!--//end--> 
-				
-<!-- scripts -->
-<script src="js/jquery.js"></script>			
-<script src="js/bootstrap.min.js"></script>
-<script src="js/retina.js"></script>
+		
+<script src="js/bootstrap.min.js"></script>	
+
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- slider settings -->
+<script type="text/javascript">
+	//<![CDATA[
+			jQuery(document).ready(function() {
+					jQuery('.tp-banner').show().revolution(
+				{
+					delay:9000,
+					startwidth:1170,
+					startheight:600,
+					navigationType:"bullet",
+					navigationStyle:"square",
+					hideBulletsOnMobile:"on",
+					hideArrowsOnMobile: "on",
+					shadow:0,
+					fullWidth:"on",
+				});
+			});	
+		//]]>
+	</script>
+
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>				
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
-<!-- skills -->
-<script>
+<script src="js/retina.js"></script>
+<!-- carousel -->
+<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript">
 //<![CDATA[
- setTimeout(function(){
- $('.progress .bar').each(function() {
-            var me = $(this);
-            var perc = me.attr("data-percentage");
-			 var current_perc = 0;
-			var progress = setInterval(function() {
-                if (current_perc>=perc) {
-                    clearInterval(progress);
-                } else {
-                    current_perc +=1;
-                    me.css('width', (current_perc)+'%');
-                }
-				me.text((current_perc)+'%');
-			}, 20);
+jQuery(document).ready(function($) {
+	$("#slider_home").carouFredSel({ 
+		width : "100%", 
+		height : "auto",
+		responsive : true,
+		auto : false,
+		items : { width : 280, visible: { min: 1, max: 3 }
+		},
+		swipe : { onTouch : true, onMouse : true },
+		scroll: { items: 1, },
+		prev : { button : "#sl-prev", key : "left"},
+		next : { button : "#sl-next", key : "right" }
 		});
-	},300);
-	 //]]>
+	});
+//]]>
 </script>
-					
 </body>
 </html>
