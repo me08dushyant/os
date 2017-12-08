@@ -23,47 +23,20 @@
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+ <script src="js/jquery.js"></script>
+        <script>
+            $(function(){
+                $("#main-head").load("head.html");
+				 $("#footer_alt").load("footer.html");
+            });
+        </script>
+		
 </head>
 
 <body>
 <!--header-->
-	<div class="header">
-<!--menu-->
-    <nav id="main_menu" class="navbar" role="navigation">
-      <div class="container">
-            <div class="navbar-header">
-        <!--toggle-->
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-				<i class="fa fa-bars"></i>
-			</button>
-		<!--logo-->
-			<div class="logo">
-				<a href="index.html"><img src="img/logo.png" alt="" class="animated bounceInDown" /></a> 
-			</div>
-		</div>
-           
-            <div class="collapse navbar-collapse" id="menu">
-                 <ul class="nav navbar-nav pull-right">
-							<li class=""><a href="index.html">Home</a></li>
-							<li class="active"><a href="about.html">About</a></li>
-							<li class=""><a href="portfolio.html">Portfolio</a></li>
-
-							<li class="dropdown"><a href="javascript:{}">Services</a>
-								<ul class="dropdown-menu">
-									<li><a href="team.html">Achitectural Design</a></li>
-									<li><a href="about.html">Product Design</a></li>
-									<li><a href="services.html">Graphic Design</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Contact</a></li>
-							
-
-				</ul>								</li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+	<div id="main-head" class="header">
+<!-- It will load head.html -->
 		</div>
 	<!--//header-->
 	
@@ -234,26 +207,9 @@
 		<!--//page-->
 	
 	<!--footer-->
-	<div id="footer2">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="copyright">
-							FLATI
-							&copy;
-							<script type="text/javascript">
-							//<![CDATA[
-								var d = new Date()
-								document.write(d.getFullYear())
-								//]]>
-								</script>
-							 - All Rights Reserved :
-							Template by <a href="http://spiralpixel.com">Spiral Pixel</a>
-						</div>
-						</div>
-					</div>
-				</div>
-					</div>
+	<div id="footer_alt" >
+	</div> 
+			
 				<!-- up to top -->
 				<a href="#"><i class="go-top fa fa-angle-double-up"></i></a>
 				<!--//end--> 
