@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Orangestudio</title>
+<title>flati | responsive html5 template | themeforest | josweb</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -82,13 +82,40 @@
 					<div class="contact_form">  
 					<div id="note"></div>
 					<div id="fields">
-					<form action="https://formspree.io/me08dushyant@gmail.com">			
-					  method="POST">
-					<input type="text" name="name">
-					<input type="email" name="_replyto">
-					<input type="submit" value="Send">
-				</form>
+				<form id="ajax-contact-form">
+					<p class="form_info">name <span class="required">*</span></p>
+						<input class="col-xs-12 col-sm-12 col-md-8" type="text" name="name" value="" />
+					<p class="form_info">email <span class="required">*</span></p>
+						<input class="col-xs-12 col-sm-12 col-md-8" type="text" name="email" value=""  />
+					<p class="form_info">subject</p>
+						<input class="col-xs-12 col-sm-12 col-md-8" type="text" name="subject" value="" /><br>
+					<p class="form_info">message</p>
+						<textarea name="message" id="message" class="col-xs-12 col-sm-12 col-md-12" ></textarea>
+						<div class="clear"></div>
+			
+					<input type="submit" class="btn btn-primary btn-form marg-right5" value="submit" />
+					<input type="reset" class="btn btn-primary btn-form" value="reset" />
+				<div class="clear pad45"></div>
 			</form>
+							<form class="form" id="contactform" action="//formspree.io/email@domain.com" method="POST">
+				 <fieldset class="field">
+				 <input class="input" type="text" name="name" placeholder="Name" id="name" required>
+				 <label class="label" for="name"><span class="label-content">Your name</span></label>
+				 </fieldset>
+				 <fieldset class="field">
+				 <input class="input" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
+				 <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
+				 </fieldset>
+				 <fieldset class="field">
+				 <textarea class="input" name="message" rows="1" placeholder="Message" id="message" required></textarea>
+				 <label class="label" for="message"><span class="label-content">Your message</span></label>
+				 </fieldset>
+				 <input class="hidden" type="text" name="_gotcha" style="display:none">
+				 <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+				 <fieldset class="field">
+				 <input class="button submit" type="submit" value="Send">
+				 </fieldset>
+				</form>
 		</div>
 	</div>                   
 	</div>                	
