@@ -97,25 +97,34 @@
 					<input type="reset" class="btn btn-primary btn-form" value="reset" />
 				<div class="clear pad45"></div>
 			</form>
-							<form class="form" id="contactform" action="//formspree.io/email@domain.com" method="POST">
-				 <fieldset class="field">
-				 <input class="input" type="text" name="name" placeholder="Name" id="name" required>
-				 <label class="label" for="name"><span class="label-content">Your name</span></label>
-				 </fieldset>
-				 <fieldset class="field">
-				 <input class="input" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
-				 <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
-				 </fieldset>
-				 <fieldset class="field">
-				 <textarea class="input" name="message" rows="1" placeholder="Message" id="message" required></textarea>
-				 <label class="label" for="message"><span class="label-content">Your message</span></label>
-				 </fieldset>
-				 <input class="hidden" type="text" name="_gotcha" style="display:none">
-				 <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
-				 <fieldset class="field">
-				 <input class="button submit" type="submit" value="Send">
-				 </fieldset>
-				</form>
+			
+			<form role="form" action="http://formspree.io/me08dushyant@gmail.com" method="POST">
+          <input type="hidden" name="_next" value="//orangestudio.co/index.html" />
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="text" name="_gotcha" style="display:none" />
+
+          <div class="form-group">
+           <p class="form_info">name <span class="required">*</span></p>
+            <input type="text" class="form-control" name="name" id="InputName" placeholder="Enter Name" required>
+          </div>
+          <div class="form-group">
+           <p class="form_info">email <span class="required">*</span></p>
+
+            <input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Enter Email" required>
+          </div>
+          <div class="form-group">
+            <p class="form_info">message</p>
+
+            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <p class="form_info">message What is 4+3? (Simple Spam Checker) </p>
+            <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+          </div>
+          <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right"> 
+      </form>
+	  
+	  
 		</div>
 	</div>                   
 	</div>                	
