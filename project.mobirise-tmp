@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-10-23_1630",
-    "currentPage": "index.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "agencym4",
       "title": "AgencyM4",
@@ -49,7 +49,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>",
         "html_before": ""
       },
       "components": [
@@ -1381,7 +1381,8 @@
     "page1.html": {
       "settings": {
         "title": "graphic-design",
-        "order": 6
+        "order": 6,
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>"
       },
       "components": [
         {
@@ -2703,7 +2704,8 @@
     "page2.html": {
       "settings": {
         "title": "product-design",
-        "order": 5
+        "order": 5,
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>"
       },
       "components": [
         {
@@ -3987,7 +3989,8 @@
     "page3.html": {
       "settings": {
         "title": "contact-us",
-        "order": 4
+        "order": 4,
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>"
       },
       "components": [
         {
@@ -4830,7 +4833,8 @@
     "page4.html": {
       "settings": {
         "title": "Web-apps",
-        "order": 3
+        "order": 3,
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>"
       },
       "components": [
         {
@@ -5982,7 +5986,8 @@
     "page5.html": {
       "settings": {
         "title": "architecture-rendering",
-        "order": 2
+        "order": 2,
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>"
       },
       "components": [
         {
@@ -7349,7 +7354,8 @@
     "page6.html": {
       "settings": {
         "title": "Logo Design",
-        "order": 1
+        "order": 1,
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>"
       },
       "components": [
         {
