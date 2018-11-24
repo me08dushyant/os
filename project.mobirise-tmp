@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-10-23_1630",
-    "currentPage": "career.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "agencym4",
       "title": "AgencyM4",
@@ -34,13 +34,19 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 78,
+    "uniqCompNum": 77,
     "versionPublish": "4.8.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x128_1.png",
     "noImageResize": "",
     "publishType": "local",
-    "publishPath": "file:///I:/_work/github/os"
+    "publishPath": "file:///I:/_work/github/os",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "http://orangestudio.in",
+    "sitemapSwitcherAuto": "on",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-129663408-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-129663408-1');\r\n</script>\r\n",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
