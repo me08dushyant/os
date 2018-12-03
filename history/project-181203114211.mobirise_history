@@ -45,7 +45,7 @@
     "robotsSwitcher": "on",
     "siteUrl": "http://orangestudio.in",
     "sitemapSwitcherAuto": "on",
-    "google-analytics": "<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5N5X8ZX\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-129663408-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-129663408-1');\r\n</script>\r\n\r\n<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/5d54ccaf1f3e21b3801e2d33b/917bc581c66748879ea46f31b.js\");</script>\r\n",
     "sitemapSwitcher": "on"
   },
   "pages": {
@@ -54,8 +54,8 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5N5X8ZX');</script>\n<!-- End Google Tag Manager -->",
-        "footer_custom": "",
+        "header_custom": "",
+        "footer_custom": "<script src=\"//code.tidio.co/3byaanbtz8gstqoijm8dpabr09430asz.js\"></script>\n<script id=\"_agile_min_js\" async type=\"text/javascript\" src=\"https://orangestudio.agilecrm.com/stats/min/agile-min.js\"> </script>\n<script type=\"text/javascript\" >\nvar Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){\n_agile.set_account('gerehc6tp17iem9husk8s1a10d', 'orangestudio', false);\n_agile.track_page_view();\n_agile_execute_web_rules();};\n</script>",
         "html_before": ""
       },
       "components": [
